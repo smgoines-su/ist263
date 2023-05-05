@@ -6,26 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homepage.html</title>
     <link rel="stylesheet" type="text/css" href="finalprojectstyles.css">
+
+    <style>
+        nav {color: black; padding: 6px; font-size: 23px}
+           
+        nav div {padding: 5px;}
+       #nav1 {display: flex; justify-content: space-around;}
+       .title {display: flex; justify-content: center; font-size: 19px; padding: 9px;}
+       .titlevideo {display: flex; font-size:16px; padding: 6px; justify-content: center;}
+       .video {display: flex; justify-content: center;}
+       .middletext {display: flex; font-size: 20px; justify-content: center; padding: 7px;}
+       .lowersection {display: flex; font-size:15px; justify-content: space-between; padding: 4px; margin-top: 25px; align-items: center;}
+       .kanyepic {display: flex; justify-content: center; margin-top:20px}
+       .finaltext {display:flex; font-size: 22px; margin-top: 20px; padding: 7px}
+       .quote {display:flex; margin-top:6px; padding: 8px; justify-content: right; font-size: 23px}
+       #hamburger {width:50px} @media only screen and (min-width:800px) {#hamburger, #close {display: none;}} @media only screen and (max-width: 799px) {.navlinks {display:block; background-color: #afeeee; border: 2px solid #b4eeb4} #nav1 {display:none;}}
+       .toplevel {display: flex;}
+       .lowermiddle {margin-left:5.2px;}
+        </style>
 </head>
 <body>
 <br>
-<style>
- nav {color: black; padding: 6px; font-size: 23px}
-    
- nav div {padding: 5px;}
-#nav1 {display: flex; justify-content: space-around;}
-.title {display: flex; justify-content: center; font-size: 19px; padding: 9px;}
-.titlevideo {display: flex; font-size:16px; padding: 6px; justify-content: center;}
-.video {display: flex; justify-content: center;}
-.middletext {display: flex; font-size: 20px; justify-content: center; padding: 7px;}
-.lowersection {display: flex; font-size:15px; justify-content: space-between; padding: 4px; margin-top: 25px; align-items: center;}
-.kanyepic {display: flex; justify-content: center; margin-top:20px}
-.finaltext {display:flex; font-size: 22px; margin-top: 20px; padding: 7px}
-.quote {display:flex; margin-top:6px; padding: 8px; justify-content: right; font-size: 23px}
-#hamburger {width:50px} @media only screen and (min-width:800px) {#hamburger, #close {display: none;}} @media only screen and (max-width: 799px) {.navlinks {display:block; background-color: #afeeee; border: 2px solid #b4eeb4} #nav1 {display:none;}}
-.toplevel {display: flex;}
-.lowermiddle {margin-left:5.2px;}
- </style>
+
 
 <script>
     function showNav () {document.getElementById("nav1").style.display = "block";}
@@ -33,8 +35,7 @@
     function hideNav () {document.getElementById("nav1").style.display = "none";}
      </script>
 
-</head>
-<body>
+
 <h1><strong>Kanye's History With Leaks</strong></h1>
 
 <div class="toplevel">
@@ -59,7 +60,7 @@
 </div>
 
 <div class="video">
-<iframe src="https://player.vimeo.com/video/29560944?h=533c26c82c" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen alt="watchthethroneminidoc"></iframe>
+<iframe src="https://player.vimeo.com/video/29560944?h=533c26c82c" width="640" height="360" style="border: none;" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/29560944"></a><a href="https://vimeo.com/user8658436"></a><a href="https://vimeo.com"></a></p>
 </div>
 
@@ -68,7 +69,7 @@
 </div>
 
 <div class="lowersection">
-<img src="../images/wtttour1.jpg" style="width: 18%; height: 18%" class="wtttour"alt="kanyejayztour">
+<img src="../images/wtttour1.jpg" style="width: 18%; height: 18%" class="wtttour" alt="kanyejayztour">
 <p class="lowermiddle"><strong>These are very extreme measures he took to stop the album from being leaked and it worked. No music was leaked from the Watch the Throne sessions and the album had an amazing commercial release with many classic songs including an amazing tour.</strong></p>
 <img src="../images/wtttour2.jpg" style="width: 18%; height: 18%" class="wtttour2" alt="wtttour2010">
 </div>

@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homepage.html</title>
     <link rel="stylesheet" type="text/css" href="finalprojectstyles.css">
+
+    <style>
+        nav {color: black; padding: 6px; font-size: 23px}
+           
+        nav div {padding: 5px;}
+       #nav1 {display: flex; justify-content: space-around;}
+       .pictures {display: flex; justify-content: center; justify-content: space-between;}
+       .words {display: flex; justify-content: center; justify-content: space-between; font-size: 14.8px; padding: 2px}
+       .phising {display: flex; justify-content: center; margin-bottom: 10px; margin-top: 20px; margin-left:6px;}
+       .bigtext {display: flex; justify-content: center; padding: 6px; font-size:20px;}
+       .quote {display:flex; margin-top:6px; padding: 8px; justify-content: right; font-size: 23px}
+       #hamburger {width:50px} @media only screen and (min-width:800px) {#hamburger, #close {display: none;}} @media only screen and (max-width: 799px) {.navlinks {display:block; background-color: #afeeee; border: 2px solid #b4eeb4} #nav1 {display:none;} .words {display:block; font-size:20px}}
+       .toplevel {display: flex;}
+        </style>
+        
 </head>
 <body>
 <br>
-<style>
- nav {color: black; padding: 6px; font-size: 23px}
-    
- nav div {padding: 5px;}
-#nav1 {display: flex; justify-content: space-around;}
-.pictures {display: flex; justify-content: center; justify-content: space-between;}
-.words {display: flex; justify-content: center; justify-content: space-between; font-size: 14.8px; padding: 2x}
-.phising {display: flex; justify-content: center; margin-bottom: 10px; margin-top: 20px; margin-left:6px;}
-.bigtext {display: flex; justify-content: center; padding: 6px; font-size:20px;}
-.quote {display:flex; margin-top:6px; padding: 8px; justify-content: right; font-size: 23px}
-#hamburger {width:50px} @media only screen and (min-width:800px) {#hamburger, #close {display: none;}} @media only screen and (max-width: 799px) {.navlinks {display:block; background-color: #afeeee; border: 2px solid #b4eeb4} #nav1 {display:none;} .words {display:block; font-size:20px}}
-.toplevel {display: flex;}
- </style>
+
 
 <script>
     function showNav () {document.getElementById("nav1").style.display = "block";}
@@ -29,8 +32,6 @@
     function hideNav () {document.getElementById("nav1").style.display = "none";}
 </script>
 
-</head>
-<body>
 <h1><strong>Kanye's History With Leaks</strong></h1>
 
 <div class="toplevel">
@@ -48,7 +49,7 @@
 <h1 style="text-align: center;"><strong>Origin Of Leaks</strong></h1>
 
 <div class="pictures">
-<img src="../images/Music Studio.jpg" style="width: 20%; height: 20%" class="musicstudio" alt="producerinstudio">
+<img src="../images/MusicStudio.jpg"style="width: 20%; height: 20%" class="musicstudio" alt="producerinstudio">
 
 <img src="../images/Wallpapersden.com_anonymous-hacker-working_1280x720.jpg" style="width: 20%; height: 20%" class="hackers" alt="hackingcomputer">
 
