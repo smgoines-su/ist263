@@ -21,6 +21,7 @@
        .quote {display:flex; margin-top:6px; padding: 8px; justify-content: right; font-size: 23px;}
        #hamburger {width:50px} @media only screen and (min-width:800px) {#hamburger, #close {display: none;}} @media only screen and (max-width: 799px) {.navlinks {display:block; background-color: #afeeee; border: 2px solid #b4eeb4} #nav1 {display:none;}}
        .toplevel {display: flex;}
+       .buttons {color: #f5f5f5; background-color:#5DADE2; font-family: 'Open Sans', sans-serif; line-height: 1.5;}
         </style>
 </head>
 <body>
@@ -32,6 +33,7 @@ function showNav () {document.getElementById("nav1").style.display = "block";}
 
 function hideNav () {document.getElementById("nav1").style.display = "none";}
  </script>
+ <script>const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'});</script>
 
 <h1><strong>Kanye's History With Leaks</strong></h1>
 
@@ -75,5 +77,8 @@ function hideNav () {document.getElementById("nav1").style.display = "none";}
 <div class="quote">
     <p>"Would you believe in what you believe in if you were the only one who believed it?" - Kanye West</p>
     </div>
+
+    <button onclick="toTop()" class="buttons">Back to Top</button> 
+    
 </body>
 </html>
